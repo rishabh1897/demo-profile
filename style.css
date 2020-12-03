@@ -4,6 +4,7 @@
     --primary-color:#FDE68A;
     --off-white: #F3F4F6;
     --dark-gray: #6B7280;
+    --off-yellow: #FEF3C7;
 }
 
 body {
@@ -29,6 +30,7 @@ hr {
 .container-center {
     max-width: 600px;
     margin: auto;
+    
 }
 
 /** links **/
@@ -72,6 +74,7 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 .navigation .nav-brand {
@@ -118,6 +121,8 @@ hr {
 
 .section {
     padding: 2rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 .section h1 {
@@ -126,7 +131,11 @@ hr {
 }
 
 .ow {
-    background-color: var(--off-white);
+    background-color: var(--off-yellow);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 /** footers **/
@@ -137,6 +146,7 @@ hr {
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
 }
 
 .footer .link {
